@@ -42,7 +42,7 @@ body {
 /* start prosecution */
 
 .prosecution {
-    min-height: calc(80vh - 72px);
+    min-height: calc(30vh - 72px);
 }
 
 .prosecution .prosecution-text{

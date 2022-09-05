@@ -46,8 +46,8 @@ body {
 }
 
 .prosecution .prosecution-text{
-    background-color: #546577;
-    color: white;
+    color: #333;
+    font-weight: bold;
     border-radius: 8px;
 }
 

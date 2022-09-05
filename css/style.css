@@ -1,0 +1,58 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.navbar {
+  background-color: var(--dark-color);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--green-color);
+}
+
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--green-color);
+}
+
+/* End Navbar */
+
+/* start prosecution */
+
+.prosecution {
+    min-height: calc(80vh - 72px);
+}
+
+.prosecution .prosecution-text{
+    background-color: #546577;
+    color: white;
+    border-radius: 8px;
+}
+
+/* end prosecution */
+
+.motion-graphic{
+    background-color: var(--dark-color);
+}
+

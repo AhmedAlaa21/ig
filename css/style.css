@@ -34,6 +34,7 @@ body {
 
 .navbar .navbar-toggler[aria-expanded="true"] {
   border-color: var(--green-color);
+  color: white;
 }
 
 /* End Navbar */
@@ -54,5 +55,9 @@ body {
 
 .motion-graphic{
     background-color: var(--dark-color);
+}
+
+video{
+    cursor: pointer;
 }
 

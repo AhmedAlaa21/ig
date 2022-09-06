@@ -10,6 +10,10 @@ body {
   font-family: "Cairo", sans-serif;
 }
 
+h1{
+  font-size: 50px;
+}
+
 .navbar {
   background-color: var(--dark-color);
 }
@@ -17,6 +21,7 @@ body {
 .navbar .navbar-nav .nav-link {
   color: white;
 }
+
 .navbar .navbar-nav .nav-link:focus,
 .navbar .navbar-nav .nav-link:hover {
   color: var(--green-color);
@@ -42,22 +47,45 @@ body {
 /* start prosecution */
 
 .prosecution {
-    min-height: calc(30vh - 72px);
+  min-height: calc(30vh - 72px);
 }
 
-.prosecution .prosecution-text{
-    color: #333;
-    font-weight: bold;
-    border-radius: 8px;
+ol {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* todo: add translate x animation */ 
+ol li {
+  cursor: pointer;
+  background-color: #19283f;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 5px;
+  padding: 15px 3px;
+  width: 600px;
+  max-width: 100%;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+
+
+.prosecution .prosecution-text {
+  color: #333;
+  border-radius: 8px;
 }
 
 /* end prosecution */
 
-.motion-graphic{
-    background-color: var(--dark-color);
+.motion-graphic {
+  background-color: var(--dark-color);
 }
 
-video{
-    cursor: pointer;
+video {
+  cursor: pointer;
 }
-
